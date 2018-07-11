@@ -2,9 +2,10 @@
 
 // IIFE - hides the code within the scope of the framework's closure
 // immediately invoked function expression.. note (.., ..) at end
-(function (global, $) {
+// semi-colon used to end a line from another file (safety net)
+;(function (global, $) {
 
-  // 'new's an object 
+  // 'new's an object
   var Greetr = function(firstName, lastName, language) {
     return new Greetr.init(firstName, lastName, language);
   }
