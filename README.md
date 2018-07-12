@@ -17,3 +17,5 @@ Alias'
 Prototype's for method calls
 
 Error Catching
+
+Mostly ES5 Concepts
